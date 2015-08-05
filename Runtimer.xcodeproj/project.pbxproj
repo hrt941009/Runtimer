@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E180CEE81B6B522100C6DCC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E180CEE71B6B522100C6DCC4 /* main.m */; };
 		E180CEF01B6B523400C6DCC4 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E180CEEF1B6B523300C6DCC4 /* MyClass.m */; };
+		E18375711B720F7300A9657C /* SomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E18375701B720F7300A9657C /* SomeClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		E180CEE71B6B522100C6DCC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E180CEEE1B6B523300C6DCC4 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		E180CEEF1B6B523300C6DCC4 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		E183756F1B720F7300A9657C /* SomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeClass.h; sourceTree = "<group>"; };
+		E18375701B720F7300A9657C /* SomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				E180CEE71B6B522100C6DCC4 /* main.m */,
 				E180CEEE1B6B523300C6DCC4 /* MyClass.h */,
 				E180CEEF1B6B523300C6DCC4 /* MyClass.m */,
+				E183756F1B720F7300A9657C /* SomeClass.h */,
+				E18375701B720F7300A9657C /* SomeClass.m */,
 			);
 			path = Runtimer;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E180CEF01B6B523400C6DCC4 /* MyClass.m in Sources */,
+				E18375711B720F7300A9657C /* SomeClass.m in Sources */,
 				E180CEE81B6B522100C6DCC4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +247,7 @@
 				E180CEED1B6B522100C6DCC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
